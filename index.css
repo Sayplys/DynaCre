@@ -89,11 +89,31 @@ header{
     align-items: center;
 }
 
-#primary-title{
+.primary-title{
     padding-bottom: 2rem;
 
     color: var(--white);
     font-size: 2.5rem;
+}
+
+.tags{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 12px;
+}
+
+.tag{
+    width: fit-content;
+
+    margin-left: 0.4rem;
+    padding-block: .1rem;
+    padding-inline: .5rem;
+
+    border-radius: 1rem;
+
+    background-color: #aaa;
 }
 
 #cards-area{
