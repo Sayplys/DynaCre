@@ -59,7 +59,7 @@ header{
     height: 30%;
 }
 
-#start-btn{
+#btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,11 +74,11 @@ header{
     font-size: 2rem;
 }
 
-#start-btn:hover{
+#btn:hover{
     background-color: #D0D0D0;
 }
 
-#start-text{
+#start-section>p{
     color: var(--light-gray);
     font-size: 1.5rem;
 }
@@ -89,7 +89,7 @@ header{
     align-items: center;
 }
 
-#section-title{
+#primary-title{
     padding-bottom: 2rem;
 
     color: var(--white);
@@ -105,7 +105,7 @@ header{
     width: 75%;
 }
 
-.creation-card{
+.card{
     height: 18rem;
 
     background-color: var(--light-gray);
